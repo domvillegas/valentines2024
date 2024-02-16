@@ -4,8 +4,8 @@ import "./globals.css";
 
 
 export const metadata: Metadata = {
-  title: "Her red hair",
-  description: "For little Jenny.",
+  title: "Red Like Raindrops In Fall",
+  description: "A poem for my girlfriend.",
 };
 
 export default function RootLayout({
