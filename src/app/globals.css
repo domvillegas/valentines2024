@@ -47,7 +47,6 @@ a {
   margin: 5px;
   position: relative;
 
-  opacity: 0;
   animation-name: reveal;
   animation-duration: 1s;
   animation-timing-function: ease-in-out;
@@ -59,14 +58,22 @@ a {
   background: #bd0d0d72;
 }
 
-@keyframes reveal {
+/* @keyframes reveal {
   0% {
+    transform: scaleX(1);
+    margin: 0;
     opacity: 0;
   }
-  100% {
+  60% {
+    transform: scaleY(-1) scale(-.5);
+    margin: 10px auto;
     opacity: 1;
   }
-}
+  100% {
+    transform: scaleX(1);
+    margin: 0;
+  }
+} */
 
 @keyframes fall {
   0% {
@@ -85,7 +92,6 @@ a {
 }
 
 .line1 {
-  opacity: 0;
   animation-name: reveal;
   animation-duration: 1s;
   animation-timing-function: ease-in-out;
@@ -94,9 +100,6 @@ a {
 }
 
 .line2 {
-  bottom: 15px;
-
-  opacity: 0;
   animation-name: reveal;
   animation-duration: 1s;
   animation-timing-function: ease-in-out;
@@ -105,8 +108,6 @@ a {
 }
 
 .line3 {
-  bottom: 30px;
-
   opacity: 0;
   animation-name: reveal;
   animation-duration: 1s;
@@ -116,10 +117,37 @@ a {
 }
 
 .line4 {
-  border: none;
-  /* opacity: 0;
-  animation: reveal 1s ease-in-out 8.5s forwards,
-    fall 1s ease-in-out 8.5s forwards; */
+  opacity: 0;
+  animation-name: reveal;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+  animation-delay: 8.5s;
+}
+.line5 {
+  opacity: 0;
+  animation-name: reveal;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+  animation-delay: 11s;
+}
+.line6 {
+  opacity: 0;
+  animation-name: reveal;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+  animation-delay: s;
+}
+
+.line7 {
+  opacity: 0;
+  animation-name: reveal;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+  animation-delay: 6s;
 }
 
 .threeFourGroup {
