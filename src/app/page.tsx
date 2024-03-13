@@ -18,7 +18,6 @@ export default function Home() {
         <div className="line">Reply: "Yes, but please call me queen."</div>
         <div className="line">Play &#9829;</div>
         <div className="line">10010111010100001011111</div>
-        <div className="line"></div>
         <a
           className="line"
           target="_blank"
