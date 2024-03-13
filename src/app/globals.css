@@ -24,17 +24,26 @@ body {
 }
 
 .poem {
-  display: flex;
-  justify-content: center;
+  width: 300px;
+  background: rgba(116, 116, 173, 0.511);
 }
 
 .line {
   border: 1px solid black;
   padding: 5px;
   margin: 5px;
-  width: fit-content;
-  height: fit-content;
   position: relative;
+
+  opacity: 0;
+  animation-name: reveal;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
+}
+
+.line::selection {
+  background: #bd0d0d72;
 }
 
 @keyframes reveal {
@@ -110,47 +119,47 @@ body {
   position: relative;
   opacity: 0;
   animation: reveal 1s ease-in-out 8.5s forwards,
-  fall 1.25s ease-in-out 8.5s forwards;
+    fall 1.25s ease-in-out 8.5s forwards;
 }
 
 .n {
   position: relative;
   opacity: 0;
   animation: reveal 1s ease-in-out 8.75s forwards,
-  fall 1.25s ease-in-out 8.75s forwards;
+    fall 1.25s ease-in-out 8.75s forwards;
 }
 
 .n {
   position: relative;
   opacity: 0;
   animation: reveal 1s ease-in-out 9s forwards,
-  fall 1.25s ease-in-out 9s forwards;
+    fall 1.25s ease-in-out 9s forwards;
 }
 
 .f {
   position: relative;
   opacity: 0;
   animation: reveal 1s ease-in-out 9.25s forwards,
-  fall 1.25s ease-in-out 9.25s forwards;
+    fall 1.25s ease-in-out 9.25s forwards;
 }
 
 .a {
   position: relative;
   opacity: 0;
   animation: reveal 1s ease-in-out 9.5s forwards,
-  fall 1.25s ease-in-out 9.5s forwards;
+    fall 1.25s ease-in-out 9.5s forwards;
 }
 
 .l {
   position: relative;
   opacity: 0;
   animation: reveal 1s ease-in-out 9.75s forwards,
-  fall 1.25s ease-in-out 9.75s forwards;
+    fall 1.25s ease-in-out 9.75s forwards;
 }
 
 .ll {
   position: relative;
   opacity: 0;
   animation: reveal 1s ease-in-out 10s forwards,
-  fall 1.25s ease-in-out 10s forwards;
+    fall 1.25s ease-in-out 10s forwards;
 }
