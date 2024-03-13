@@ -13,10 +13,10 @@ export default function Home() {
           https://gemini.google.com/app
         </a>
         <div className="line">10000011110011001101011</div>
-        <div className="line">Gemini: "I'm the moon."</div>
-        <div className="line">Read response.</div>
-        <div className="line">Reply: "Yes, but please call me queen."</div>
-        <div className="line">Play &#9829;</div>
+        <div className="line">1. Input: "What is red like raindrops in fall?"</div>
+        <div className="line">2. Read response.</div>
+        <div className="line">3. Input: "Yes, but please call me queen."</div>
+        <div className="line">4. Play &#9829;</div>
         <div className="line">10010111010100001011111</div>
         <a
           className="line"
