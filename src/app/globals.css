@@ -30,7 +30,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-
+  overflow: hidden;
 }
 
 .poem {
@@ -60,7 +60,7 @@ a {
     opacity: 0;
   }
   60% {
-    transform: scaleY(-1) scale(-.05);
+    transform: scaleY(-1) scale(-0.05);
     margin: 10px auto;
     opacity: 1;
   }
